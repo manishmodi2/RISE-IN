@@ -1,0 +1,15 @@
+    [package]
+    name = "SupplyChainTracking"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x8603abc101311bb415b484e6dd365a495534ec9b187b8159349ff5bfa2646025'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
